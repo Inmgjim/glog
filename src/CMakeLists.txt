@@ -27,4 +27,4 @@ windows/glog/vlog_is_on.h
 utilities.h
 )
 
-ADD_LIBRARY( glog SHARED ${GLOG_HEADERS} ${GLOG_SRCS})
+ADD_LIBRARY( libglog SHARED ${GLOG_HEADERS} ${GLOG_SRCS})
